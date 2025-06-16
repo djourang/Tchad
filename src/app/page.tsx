@@ -124,9 +124,7 @@ export default function Home() {
             informez-vous sur les mesures mises en place pour récupérer vos
             courriers ou mandats en attente. Pour en savoir plus, consultez la
             page{" "}
-            <Link href="/greve-poste-tchad" className="underline text-blue-700">
-              Grève à La Poste du Tchad
-            </Link>
+            <Link href="/greve-poste-tchad">Grève à La Poste du Tchad</Link>
           </p>
         </Alert>
       </section>
@@ -141,11 +139,11 @@ export default function Home() {
 
       <section className="mb-12">
         <form role="search" className="flex justify-center">
-          <div className="flex w-full max-w-md">
+          <div className="flex w-full max-w-md rounded border border-gray-300 hover:border-blue-900 focus-within:border-blue-900 focus-within:ring-2 focus-within:ring-blue-900 transition-all duration-150">
             <input
               type="search"
               placeholder="Rechercher dans Tchad.gouv.td"
-              className="w-full border border-gray-300 rounded-l px-4 py-2 text-sm focus:outline-none"
+              className="w-full px-4 py-2 text-sm rounded-l focus:outline-none"
               aria-label="Recherche"
               name="recherche"
             />
@@ -277,10 +275,7 @@ export default function Home() {
             </ul>
 
             {/* Voir plus → */}
-            <Link
-              href={r.lien}
-              className="text-blue-600 hover:underline text-sm"
-            >
+            <Link href={r.lien} className="text-sm">
               Voir plus →
             </Link>
           </div>

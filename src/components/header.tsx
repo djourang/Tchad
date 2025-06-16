@@ -18,10 +18,10 @@ const Header = () => {
           </Link>
         </div>
         <nav className="flex flex-col gap-1 text-sm items-end">
-          <Link href="/en" className="hover:underline">
+          <Link href="/en" className="link-white">
             English
           </Link>
-          <Link href="/nous-joindre" className="hover:underline">
+          <Link href="/nous-joindre" className="link-white">
             Nous joindre
           </Link>
         </nav>

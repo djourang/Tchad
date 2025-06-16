@@ -13,19 +13,29 @@ const Footer = () => {
               <strong>Gouvernement</strong>
             </li>
             <li>
-              <Link href="#">Ministères et organismes</Link>
+              <Link href="#" className="link-white">
+                Ministères et organismes
+              </Link>
             </li>
             <li>
-              <Link href="#">Services Tchad</Link>
+              <Link href="#" className="link-white">
+                Services Tchad
+              </Link>
             </li>
             <li>
-              <Link href="#">Gouvernement ouvert</Link>
+              <Link href="#" className="link-white">
+                Gouvernement ouvert
+              </Link>
             </li>
             <li>
-              <Link href="#">Travailler au gouvernement</Link>
+              <Link href="#" className="link-white">
+                Travailler au gouvernement
+              </Link>
             </li>
             <li>
-              <Link href="#">Salle de nouvelles</Link>
+              <Link href="#" className="link-white">
+                Salle de nouvelles
+              </Link>
             </li>
           </ul>
 
@@ -34,13 +44,19 @@ const Footer = () => {
               <strong>Règlementation</strong>
             </li>
             <li>
-              <Link href="#">Lois et règlements</Link>
+              <Link href="#" className="link-white">
+                Lois et règlements
+              </Link>
             </li>
             <li>
-              <Link href="#">Signaler une vulnérabilité informatique</Link>
+              <Link href="#" className="link-white">
+                Signaler une vulnérabilité informatique
+              </Link>
             </li>
             <li>
-              <Link href="#">Droit d’auteur et autorisation</Link>
+              <Link href="#" className="link-white">
+                Droit d’auteur et autorisation
+              </Link>
             </li>
           </ul>
 
@@ -49,10 +65,14 @@ const Footer = () => {
               <strong>Nous joindre</strong>
             </li>
             <li>
-              <Link href="#">Renseignements généraux</Link>
+              <Link href="#" className="link-white">
+                Renseignements généraux
+              </Link>
             </li>
             <li>
-              <Link href="#">Bureaux de services</Link>
+              <Link href="#" className="link-white">
+                Bureaux de services
+              </Link>
             </li>
             <li>
               <strong>Suivez-nous</strong>

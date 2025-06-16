@@ -22,10 +22,14 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={`${roboto.variable} font-sans bg-white text-black`}>
-        <Header /> {/* Affiche le Header sur toutes les pages */}
+        <div className="section-header bg-blue-900">
+          <Header /> {/* Affiche le Header sur toutes les pages */}
+        </div>
         <main>{children}</main>{" "}
         {/* Le contenu de chaque page sera injecté ici */}
-        <Footer /> {/* Affiche le Footer sur toutes les pages */}
+        <div className="section-footer bg-blue-900">
+          <Footer /> {/* Affiche le Footer sur toutes les pages */}
+        </div>
       </body>
     </html>
   );
