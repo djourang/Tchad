@@ -39,7 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Objectif
 
-Ce projet a pour but de développer un système de navigation web accessible, réutilisable et conforme à la norme WCAG 2.1, destiné aux sites gouvernementaux du Tchad. Il s'inspire de l’approche utilisée par Québec.ca et vise à assurer l’inclusion numérique de tous les citoyens, y compris ceux qui utilisent un clavier ou un lecteur d’écran.
+Ce projet a pour but de développer un système de navigation web accessible, réutilisable et conforme à la norme WCAG 2.1, destiné aux sites gouvernementaux du Tchad. Il s'inspire de l’approche utilisée par les pays bien avancer dans le domaine de numerisation et vise à assurer la convivialité de la navigation pour tous les citoyens, y compris ceux qui utilisent un clavier ou un lecteur d’écran.
 
 Le système est construit avec React et Next.js, dans le cadre d’un design system modulaire permettant la création rapide et cohérente de sites gouvernementaux.
 
