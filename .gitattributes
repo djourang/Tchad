@@ -1,0 +1,27 @@
+# Applique des fins de ligne Unix à tous les fichiers texte
+* text=auto eol=lf
+
+# Fichiers texte à surveiller de près pour la cohérence de style
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Fichiers binaires (à ne jamais réécrire ou normaliser)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
